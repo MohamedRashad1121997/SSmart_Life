@@ -1,0 +1,25 @@
+.MainHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    display: flex; 
+
+    padding: 5px 0;
+}
+.SearchOption{
+    width: 250px;
+    height: 30px;
+    border: 2px solid #cecece;
+    border-radius: 5px;
+    display: flex; 
+}
+.SearchOption > input{
+    width: 85%;
+    border: none;
+}
+.SearchOption > button{
+    width: 10%;
+    border: 3px;
+    background: transparent;
+}
