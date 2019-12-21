@@ -1,6 +1,6 @@
-// import React from 'react';
-// import './style.css';
+import React from 'react';
+import './style.css';
 
-// const Error = props => <div className="Error">{props.children}</div>
+ const Error = props => <div className="Error">{props.children}</div>
 
-// export default Error
+ export default Error
