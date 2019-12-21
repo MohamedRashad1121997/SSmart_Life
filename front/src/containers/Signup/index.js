@@ -132,7 +132,7 @@ class Signup extends Component {
                 <div className="WelcomeText">
                     <h3>Signup</h3>
                 </div>
-                <Logo style={{margin: '0 auto'}} />
+                
                 <div className="LoginWrapper">
                     <form onSubmit={this.signupHandler} autoComplete="off">
 
