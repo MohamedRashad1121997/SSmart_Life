@@ -45,11 +45,11 @@ function App() {
               <Route path="/products/:category/:slug" component={ProductDetails} />
               <Route path="/products"  component={Shop} />
               <PrivateRoute path="/cart" component={Cart} />
-              {/* 
+              
               <Route path="/cpanel" component={ControlPanel} />
               <PrivateRoute path="/place-order" component={PlaceOrder} />
               <PrivateRoute path="/thank-you" component={ThankYou} />
-              <PrivateRoute path="/orders" component={Orders} /> */}
+              <PrivateRoute path="/orders" component={Orders} />
               <Route path="/"  component={Shop} />
               
             </Switch>
